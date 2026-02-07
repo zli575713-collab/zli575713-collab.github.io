@@ -1,33 +1,55 @@
+<!doctype html>
 <html>
   <head>
-     <style>
-      h1{
-        border:solid;
-      } 
-      scan{
-        border:solid;
-      } 
-      scan{
-        border-color:red;
+    <style>
+      nav {
+        padding:200px 0;
+        background-color: rgba(255,0,0,0.5);
+        width: 200px;
+        /* vh: viewport height*/
+        height: 100vh;
+        position: fixed;
+        /*border: solid 20px;*/
       }
-      nav{
-        background-color:gray;
+
+      main {
+        padding-left: 200px;
+           /*border: solid 20px blue;*/
       }
-      body{
+      body {
         margin:0;
       }
-     </style>
+
+      /*section {*/
+      /*  border: black solid 50px;*/
+      /*  padding:50px;*/
+      /*  margin:50px;*/
+      /*}*/
+      
+    </style>
   </head>
+  
+  
   <body>
-    <h1>Joeseph Stalin</h1>
-   <nav>
-   <ul>
-    <li>Soviet</li>
-     <li><scan>Very</scan> Soviet</li>
-     <li>Like potatos</li>
-  </ul>
-  </nav>
-  
-  <img src="https://cdn.britannica.com/62/95662-050-DA4215DE/Joseph-Stalin.jpg"
-  
+    <nav>
+      <ul>
+        <li>About</li>
+        <li>Experiences</li>
+        <li>Education</li>
+        <li>Skills</li>
+        <li>Interests</li>
+        <li>Awards</li>
+      </ul>
+    </nav>
+    
+    <main>
+      <h1> Vincent</h1>
+      <p><a href="mailto:teensprogramming@gmail.com">NAME@EMAIL.COM</a></p>
+    </main>
+    
+    
+    
+    <!--<section>Content</section>-->
+    
   </body>
+</html>
