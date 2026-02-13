@@ -2,6 +2,25 @@
 <html>
   <head>
     <style>
+      nav img {
+        width: 150px;
+        border-radius:50px;
+        border-width:10px;
+        border : solid yellow;
+      }
+      html {
+       scroll-behavior: smooth;
+      }
+      nav li {
+        list-style: none;
+        
+      }
+      nav li a {
+        text-decoration: none;
+      }
+      main section a {
+        text-decoration: none;
+      }
       nav {
         padding:200px 0;
         background-color: rgba(255,0,0,0.5);
@@ -20,12 +39,12 @@
         margin:0;
       }
 
-      /*section {*/
-      /*  border: black solid 50px;*/
-      /*  padding:50px;*/
-      /*  margin:50px;*/
-      /*}*/
-      
+      section {
+        border: black solid  ;
+        padding: 10px;
+        height: 500px;
+      }
+       
     </style>
   </head>
   
@@ -33,18 +52,26 @@
   <body>
     <nav>
       <ul>
-        <li>About</li>
-        <li>Experiences</li>
-        <li>Education</li>
-        <li>Skills</li>
-        <li>Interests</li>
-        <li>Awards</li>
+        <img src="https://github.com/zli575713-collab/zli575713-collab.github.io/blob/main/picture.jpg?raw=true" alt="Avatar" width="200" height="alto">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experiences">Experiences</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Interests">Interests</a></li>
+        <li><a href="#Awards">Awards</a></li>
       </ul>
     </nav>
     
     <main>
-      <h1> Vincent</h1>
-      <p><a href="mailto:teensprogramming@gmail.com">NAME@EMAIL.COM</a></p>
+    
+    <section id='About'><h1> Joseph Stalin</h1>
+      <p><a href="zli575713@gmail.com">JosephS1945@gmail.com</a></p>
+    </section>
+    <section id='Experiences'>Experiences</section>
+    <section id='Education'>Education</section>
+    <section id='Skills'>Skills</section>
+    <section id='Interests'>Interests</section>
+    <section id='Awards'>Awards</section>
     </main>
     
     
